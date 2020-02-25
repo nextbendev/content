@@ -17,6 +17,9 @@ gem 'active_admin_editor', '~> 1.1'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'autoprefixer-rails', '~> 9.7', '>= 9.7.4'
+gem 'cancancan'
+gem 'draper'
+gem 'pundit'
 
 group :development do
   gem 'sqlite3'
