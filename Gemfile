@@ -20,7 +20,7 @@ gem 'autoprefixer-rails', '~> 9.7', '>= 9.7.4'
 gem 'cancancan'
 gem 'draper'
 gem 'pundit'
-gem 'jquery-rails'
+
 
 group :development do
   gem 'sqlite3'

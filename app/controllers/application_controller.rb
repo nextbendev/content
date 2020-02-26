@@ -3,9 +3,7 @@ class ApplicationController < ActionController::Base
 
   protect_from_forgery with: :exception
 
-
-
   def getPageNav
-    @pageNav = Page.where("menu display = true && is_published = true").order(order: :asc)
+    @pageNav = Page.where("menu_display = true and is_published = true").order(order: :asc)
   end
 end
