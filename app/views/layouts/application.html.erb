@@ -12,14 +12,15 @@
 
   <body>
       <%= render 'layouts/header' %>
-    
+
   <main role="main">
 
-
+<%= render 'blocks/jumbotron' %>
 
     <div class="container">
       <p class="notice"><%= notice %></p>
       <p class="alert"><%= alert %></p>
+      <%= render 'blocks/block' %>
       <%= yield %>
       <hr>
       <footer class="container">
