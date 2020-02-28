@@ -1,24 +1,17 @@
 # README
+ruby 2.6.5
+rails 5.2.4
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+rails :db:create
 
-Things you may want to cover:
+bundle install
 
-* Ruby version
+rails db:seed
 
-* System dependencies
+rails s
 
-* Configuration
 
-* Database creation
+http://localhost:3000/admin
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Admin@example.com
+password: password

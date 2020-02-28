@@ -4,7 +4,6 @@ class PagesController < ApplicationController
     if @page.is_published == false
       redirect_to root_path, alert: "No page here"
     end
-    @sections =Section.all
+    @sections = Section.all
   end
-
 end
